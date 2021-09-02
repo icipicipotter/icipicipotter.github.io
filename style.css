@@ -1,0 +1,137 @@
+.header{
+  display: flex;
+  height: 400px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+#photo{
+  background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-size: 1500px 400px;
+  width: 1500px;
+  height: 400px;
+  align-items: center;
+  font-family: Abril Fatface;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#myname{
+  margin-left: 350px;
+  margin-top: 210px;
+  font-size: 40px;
+}
+
+#skywalker{
+  margin-left: 350px;
+  font-size: 80px;
+}
+
+.main{
+  height: 300px;
+  max-width: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  color: #222;
+  line-height: 150%;
+}
+
+.grey1{
+  background-color: #444444;
+  height: 170px;
+  color: white;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Abril Fatface;
+  display: flex;
+  position: relative;
+  font-size: 50px;
+}
+
+.grey{
+  background-color: #444444;
+  height: 230px;
+  color: white;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Abril Fatface;
+  display: flex;
+  position: relative;
+  font-size: 50px;
+}
+
+.text{
+  display: flex;
+  position: absolute;
+  left: 35px;
+}
+
+.quotemark::before {
+  content: '”';
+  font-size: 120px;
+  display: flex;
+  position: absolute;
+  top: -80px;
+  transform: rotate(180deg);
+}
+
+h1{
+  font-family: Josefin Sans;
+  font-size: 26px;
+  max-width: 720px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+h2{
+  font-family: Josefin Sans;
+  font-size: 22px;
+  max-width: 720px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+h3{
+  font-family: Merriweather;
+  font-size: 14px;
+  font-style: italic;
+  max-width: 720px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.main2 {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  align-items: center;
+  font-family: Josefin Sans;
+  font-size: 15px;
+  color: #222;
+  line-height: 150%;
+}
+
+#line{
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  border: 2px solid black;
+}
